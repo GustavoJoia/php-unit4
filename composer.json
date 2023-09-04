@@ -1,8 +1,9 @@
 {
-    "name": "aluno/php_unit",
+    "name": "aluno/php_unit_exemplo",
+    "description": "oihhhhii",
     "autoload": {
         "psr-4": {
-            "app\\": "app/"
+            "Aluno\\PhpUnitExemplo\\": "src/"
         }
     },
     "autoload-dev": {
@@ -12,7 +13,7 @@
     },
     "authors": [
         {
-            "name": "Luana",
+            "name": "Luana & Gustavo",
             "email": "luana.gr.macedo@gmail.com"
         }
     ],

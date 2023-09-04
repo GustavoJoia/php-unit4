@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'aluno/php_unit',
+        'name' => 'aluno/php_unit_exemplo',
         'pretty_version' => '1.0.0+no-version-set',
         'version' => '1.0.0.0',
         'reference' => NULL,
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'aluno/php_unit' => array(
+        'aluno/php_unit_exemplo' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'reference' => NULL,
