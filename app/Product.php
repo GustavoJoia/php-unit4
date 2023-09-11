@@ -1,5 +1,5 @@
 <?php
-namespace app\libraries;
+namespace app;
 
 class Product{
     private string $name;

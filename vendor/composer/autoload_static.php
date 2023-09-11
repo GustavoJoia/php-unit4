@@ -14,7 +14,11 @@ class ComposerStaticInit67eb1a2ee78eea835e4fe98c33b7d436
     public static $prefixLengthsPsr4 = array (
         't' => 
         array (
-            'test\\' => 5,
+            'tests\\' => 6,
+        ),
+        'a' => 
+        array (
+            'app\\' => 4,
         ),
         'P' => 
         array (
@@ -25,16 +29,16 @@ class ComposerStaticInit67eb1a2ee78eea835e4fe98c33b7d436
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
-        'A' => 
-        array (
-            'Aluno\\PhpUnitExemplo\\' => 21,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'test\\' => 
+        'tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
         'PhpParser\\' => 
         array (
@@ -47,10 +51,6 @@ class ComposerStaticInit67eb1a2ee78eea835e4fe98c33b7d436
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Aluno\\PhpUnitExemplo\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
@@ -964,6 +964,8 @@ class ComposerStaticInit67eb1a2ee78eea835e4fe98c33b7d436
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'app\\Product' => __DIR__ . '/../..' . '/app/Product.php',
+        'tests\\ProductTest' => __DIR__ . '/../..' . '/tests/ProductTest.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

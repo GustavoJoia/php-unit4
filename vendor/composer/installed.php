@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'aluno/php_unit_exemplo',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'aluno/phpunit',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '37fcb408c539eff1a058a63b1c233f549a786a0c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'aluno/php_unit_exemplo' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'aluno/phpunit' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '37fcb408c539eff1a058a63b1c233f549a786a0c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
