@@ -1,5 +1,5 @@
 {
-    "name": "aluno/php_unit_exemplo",
+    "name": "aluno/phpdahora",
     "description": "oihhhhii",
     "autoload": {
         "psr-4": {
@@ -13,7 +13,7 @@
     },
     "authors": [
         {
-            "name": "Luana & Gustavo",
+            "name": "\"joia e lua\"",
             "email": "luana.gr.macedo@gmail.com"
         }
     ],

@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'aluno/phpunit',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '37fcb408c539eff1a058a63b1c233f549a786a0c',
+        'name' => 'aluno/phpdahora',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'df72c7d6ac7ee3fbf36fb796c48e975c28addb85',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'aluno/phpunit' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '37fcb408c539eff1a058a63b1c233f549a786a0c',
+        'aluno/phpdahora' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'df72c7d6ac7ee3fbf36fb796c48e975c28addb85',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
