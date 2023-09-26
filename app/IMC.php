@@ -10,7 +10,7 @@ class Imc{
     public function __construct($peso, $altura){
         $this->peso = $peso;
         $this->altura = $altura;
-        $this->valor = $this->peso/($this->altura*$this->altura);
+        $this->valor = number_format($this->peso/($this->altura*$this->altura), 1);
         $this->definir($this->valor);
     }
 
