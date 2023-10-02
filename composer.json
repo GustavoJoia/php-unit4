@@ -1,6 +1,6 @@
 {
-    "name": "aluno/phpdahora",
-    "description": "oihhhhii",
+    "name": "guhst/phpunit",
+    "description": "Testes de cobertura com PhpUnit",
     "autoload": {
         "psr-4": {
             "app\\": "app/"
@@ -13,12 +13,12 @@
     },
     "authors": [
         {
-            "name": "\"joia e lua\"",
-            "email": "luana.gr.macedo@gmail.com"
+            "name": "Gustavo S. C. Joia",
+            "email": "gustavo.joia57@gmail.com"
         }
     ],
     "phpunit/php-code-coverage": "^4.0.3",
     "require-dev": {
         "phpunit/phpunit": "^9.6"
-    }   
+    }
 }

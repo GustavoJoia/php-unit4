@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => 'aluno/phpdahora',
+        'name' => 'guhst/phpunit',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'df72c7d6ac7ee3fbf36fb796c48e975c28addb85',
+        'reference' => '56e65bb424ae457e98805d30a8d0f7eee27bbcec',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'aluno/phpdahora' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'df72c7d6ac7ee3fbf36fb796c48e975c28addb85',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'doctrine/instantiator' => array(
             'pretty_version' => '1.5.0',
             'version' => '1.5.0.0',
@@ -27,6 +18,15 @@
             'install_path' => __DIR__ . '/../doctrine/instantiator',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'guhst/phpunit' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '56e65bb424ae457e98805d30a8d0f7eee27bbcec',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.11.1',
